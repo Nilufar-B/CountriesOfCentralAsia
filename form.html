@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleForm.css">
+    <link rel="stylesheet" href="styleMain.css">
+    <script src="inputmask.min.js"></script>
+   
+    <title>Logga in</title>
+</head>
+<body>
+    <ul class="menu-main">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="taggar.html">Taggar</a></li>
+        <li><a href="podcast.html">Podcast</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+       
+    </ul>
+   
+    <form method="post" id="form">
+        
+        <h3> Prenumerera:</h3>
+        <section class="section">
+        <label for ="firstname"> <b>Förnamn:</b></label>
+      <input type="text" name="firstname" placeholder="förnamn" required>
+      <label for ="lastname"><b> Efternamn:</b></label>
+      <input type="text" name="lastname" placeholder="efternamn" required><br><br>
+      <label for ="phonenumber" ><b> Telefonnummer:</b></label>
+      <input type="number" name="phonenumber" placeholder="Telefonnummer" required>
+     <br><br> </section>
+    
+<button type="submit" id="btn">Skicka</button> 
+
+      </form>
+
+      <footer>
+
+        <p class="copyright">Copyright 2022 "Allt om Centralasien".</p>
+        <p id="datum"></p>
+        <address>
+            <a name="contact"></a>
+            Written by <a href="mailto:nbakhridinova@gmail.com">Nilufar B.</a><br>
+            Box 3948, Stockholm<br>
+            Sverige
+        </address>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
